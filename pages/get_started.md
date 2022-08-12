@@ -1,7 +1,5 @@
-# get started
+# Get Started
 
-COMING SOON!
+**COMING SOON!**
 
-check out the tracks coming [here](pages/tracks)
-
-stay updated by following our [twitter](https://twitter.com/authdeck)
+Check out the tracks coming [here](pages/tracks) and stay updated by following our [twitter](https://twitter.com/authdeck)

@@ -1,39 +1,39 @@
-# authdeck
+# Authdeck
 
-## what is authdeck <!-- {docsify-ignore} -->
+## What is Authdeck <!-- {docsify-ignore} -->
 
 <!-- # chi -->
-> authdeck provides a two-way solution to verify humanity without losing anonymity and staying decentralized.
+> Authdeck provides a two-way solution to verify humanity without losing anonymity and staying decentralized.
 
-authdeck is a platform where you can prove your humanity by completing verification tracks which are mostly decentralized.
-by doing this- you would increase your reputation score which other dapps would use to prove your humanity.
+Authdeck is a platform where you can prove your humanity by completing verification tracks which are mostly decentralized.
+By doing this - you would increase your reputation score which other dApps would use to prove your humanity.
 
-## verification methods <!-- {docsify-ignore} -->
-- captcha
-- social verification
-    - twitter
-    - telegram
-- Q&A to prove your humanity
-- blockchain history
-- vouching system
+## Verification Methods <!-- {docsify-ignore} -->
+- Captcha
+- Social Verification
+    - Twitter
+    - Telegram (WIP)
+- Q&A to prove your humanity (WIP)
+- Blockchain History
+- vouching system (WIP)
 
-check explanation of each track in <u>[🔗](pages/tracks)</u>
+You can find more details about each track in <u>[tracks](pages/tracks)</u>
 
-## why authdeck? <!-- {docsify-ignore} -->
-the current verification in dapps is using KYC which is a complicated process and is not decentralized.
+## Why Authdeck? <!-- {docsify-ignore} -->
+The current verification in dApps is using KYC which is a complicated process and is not decentralized.
 
-we use a simple process by calculating reputation based on multiple factors to prove your humanity without exposing yourself.
+We use a simple process by calculating reputation based on multiple factors to prove your humanity without exposing yourself.
 
-> this is a win-win situation for both users and dapps
+> This is a win-win situation for both users and dApps
 
-- users don't need to upload personal documents, and wait for it to get verified
-- dapps don't need to implement KYC- which is very complicated
+- Users don't need to upload personal documents, and wait for it to get verified
+- dApps don't need to implement KYC - which is very complicated
 
 by using authdeck, <br>
 
-- users just need to complete the verification tracks once
-- every dapp using authdeck can call our API to verify the user
+- Users just need to complete the verification tracks once
+- Every dApp using Authdeck can call our API to verify the user
 
-## license <!-- {docsify-ignore} -->
+## License <!-- {docsify-ignore} -->
 
 Copyright (c) 2022-present [SoulNinja-dev](https://github.com/SoulNinja-dev)
