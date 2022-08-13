@@ -2,46 +2,36 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## What is Authdeck
 
-## Getting Started
+> Authdeck provides a two-way solution to verify humanity without losing anonymity and staying decentralized.
+Authdeck is a platform where you can prove your humanity by completing verification tracks which are mostly decentralized.
+By doing this - you would increase your reputation score which other dApps would use to prove your humanity.
 
-Get started by **creating a new site**.
+## Verification Methods
+- Captcha
+- Social Verification
+    - Twitter
+    - Telegram (WIP)
+- Q&A to prove your humanity (WIP)
+- Blockchain History
+- vouching system (WIP)
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+You can find more details about each track in <u>[Tracks](./tracks)</u>
 
-### What you'll need
+## Why Authdeck?
+The current verification in dApps is using KYC which is a complicated process and is not decentralized.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+We use a simple process by calculating reputation based on multiple factors to prove your humanity without exposing yourself.
 
-## Generate a new site
+> This is a win-win situation for both users and dApps
 
-Generate a new Docusaurus site using the **classic template**.
+- Users don't need to upload personal documents, and wait for it to get verified
+- dApps don't need to implement KYC - which is very complicated
 
-The classic template will automatically be added to your project after you run the command:
+by using authdeck, <br />
 
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- Users just need to complete the verification tracks once
+- Every dApp using Authdeck can call our API to verify the user
