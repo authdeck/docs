@@ -1,5 +1,0 @@
-- [👋 Introduction](README.md)
-- [⚡ Getting Started](pages/get_started.md)
-- [🔌 Tracks](pages/tracks.md)
-- [🧬 API](pages/API.md)
-- [⚖️ GitHub](https://github.com/authdeck)
