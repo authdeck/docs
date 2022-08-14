@@ -1,39 +1,41 @@
-# authdeck
+# Website
 
-## what is authdeck <!-- {docsify-ignore} -->
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-<!-- # chi -->
-> authdeck provides a two-way solution to verify humanity without losing anonymity and staying decentralized.
+### Installation
 
-authdeck is a platform where you can prove your humanity by completing verification tracks which are mostly decentralized.
-by doing this- you would increase your reputation score which other dapps would use to prove your humanity.
+```
+$ yarn
+```
 
-## verification methods <!-- {docsify-ignore} -->
-- captcha
-- social verification
-    - twitter
-    - telegram
-- Q&A to prove your humanity
-- blockchain history
-- vouching system
+### Local Development
 
-check explanation of each track in <u>[🔗](pages/tracks)</u>
+```
+$ yarn start
+```
 
-## why authdeck? <!-- {docsify-ignore} -->
-the current verification in dapps is using KYC which is a complicated process and is not decentralized.
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-we use a simple process by calculating reputation based on multiple factors to prove your humanity without exposing yourself.
+### Build
 
-> this is a win-win situation for both users and dapps
+```
+$ yarn build
+```
 
-- users don't need to upload personal documents, and wait for it to get verified
-- dapps don't need to implement KYC- which is very complicated
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-by using authdeck, <br>
+### Deployment
 
-- users just need to complete the verification tracks once
-- every dapp using authdeck can call our API to verify the user
+Using SSH:
 
-## license <!-- {docsify-ignore} -->
+```
+$ USE_SSH=true yarn deploy
+```
 
-Copyright (c) 2022-present [SoulNinja-dev](https://github.com/SoulNinja-dev)
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
