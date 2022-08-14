@@ -18,9 +18,9 @@ const FeatureList = [
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
-        Most solutions to stop bots on-chain use KYC and thus people lose
-        anonimity. Authdeck provides a unique verification system, where dApps
-        can verify user and stop bots without losing their anonimity
+        Most solutions to stop bots on-chain, use KYC, thus people lose their
+        anonymity. Authdeck provides a unique verification system where dApps
+        can verify their users, and stop bots without losing the user's anonimity.
       </>
     ),
   }
