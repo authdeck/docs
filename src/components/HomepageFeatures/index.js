@@ -8,8 +8,8 @@ const FeatureList = [
     Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
     description: (
       <>
-        Authdeck&apos;s API is just one call away. Authdeck was designed form
-        the ground up to be simple, secure, decentralized, and easy to use.
+        Authdeck&apos;s API is just one call away. Authdeck was designed to be simple, secure from scratch. It is easy to use and decentralized. 
+       
       </>
     ),
   },
